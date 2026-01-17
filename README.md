@@ -24,6 +24,20 @@ This repository contains a Unity ML-Agents Hide-and-Seek environment and trainin
 - ML-Agents Python package: 0.30.0
 - PyTorch 1.7.1
 
+## Languages & Tools Used
+**Languages**
+- C# (Unity environment + agents)
+- Python (training with ML-Agents `mlagents-learn`)
+- YAML (trainer configuration)
+
+**Tools / Frameworks**
+- Unity 2022.3 LTS
+- Unity ML-Agents
+- PyTorch
+- TensorBoard
+- Git + GitHub
+
+
 ## Project Structure
 - Assets/ Unity assets and scenes
 - Builds/Training/ *(ignored in git)* built executable used for training
