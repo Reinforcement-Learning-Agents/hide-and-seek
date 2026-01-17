@@ -1,4 +1,20 @@
-﻿# Hide-and-Seek Agent Training (Unity ML-Agents)
+﻿## Exported Models (ONNX)
+The trained policies are stored in:
+
+- `Assets/NNModels/`
+
+### Models included
+- **POCA model (Hide-and-Seek):** `HideAndSeekAgent-1857600.onnx`
+- **PPO baseline model:** `PPO_HideAndSeekAgent-699900.onnx`
+
+
+## Reproduce Training (Windows)
+```powershell
+mlagents-learn ml-agents_config.yaml --env Builds\Training\unity-ml-agents_hide-and-seek.exe --run-id hns_run1 --force --no-graphics --time-scale 20
+
+
+
+# Hide-and-Seek Agent Training (Unity ML-Agents)
 
 This repository contains a Unity ML-Agents Hide-and-Seek environment and training workflow used for an Applied Reinforcement Learning software project.
 
@@ -11,7 +27,8 @@ This repository contains a Unity ML-Agents Hide-and-Seek environment and trainin
 ## Project Structure
 - Assets/ Unity assets and scenes
 - Builds/Training/ *(ignored in git)* built executable used for training
-- esults/ *(ignored in git)* ML-Agents logs and checkpoints
+- 
+esults/ *(ignored in git)* ML-Agents logs and checkpoints
 - ml-agents_config.yaml Trainer configuration
 - Assets/NNModels/ Exported ONNX models
 
