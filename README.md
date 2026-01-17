@@ -55,4 +55,4 @@ Open: http://localhost:6006
 - Press Play
 
 ## Report
-The full training report is provided as a Word document in this repository.
+The full training report is provided as a pdf document in this repository.
