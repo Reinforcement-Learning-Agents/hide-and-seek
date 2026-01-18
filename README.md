@@ -1,4 +1,8 @@
-﻿## Exported Models (ONNX)
+﻿## 🎥 Demo Preview
+![Demo](media/short_v.gif)
+
+
+## Exported Models (ONNX)
 The trained policies are stored in:
 
 - `Assets/NNModels/`
